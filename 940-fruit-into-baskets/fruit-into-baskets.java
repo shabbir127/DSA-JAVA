@@ -6,10 +6,10 @@ class Solution {
         int res=0;
         Map<Integer,Integer> freq=new HashMap<>();
         
-        if(fruits.length ==1)
-        {
-            return 1;
-        }
+        // if(fruits.length ==1)
+        // {
+        //     return 1;
+        // }
         for(int high=0; high<n;high++)
         {
             int ch=fruits[high];
